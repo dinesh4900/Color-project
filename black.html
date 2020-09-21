@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>black</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: #CAD3C8;
+		}
+		.head{
+			background-color: black;
+			color: white;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+		    overflow: hidden;
+		}
+		table {
+  			table-layout: fixed;
+  			padding: 10px;
+  			text-align: center;
+  			height: 200px;
+  			width: 100%;
+		}		
+
+		th,td {
+    		width: 100px;
+  			overflow: hidden;
+  			height: 200px;
+  			border-radius: 25px;
+		}
+
+		input{
+			border-radius: 3px;
+			background-color: black;
+			color: white;
+			border: none;
+		}
+
+		@media screen and (max-width: 480px) {
+ 			 table{
+				  padding: 10px;
+			  }
+}
+
+	</style>
+</head>
+<body>
+	<div class="head">
+		<h1> BLACK</h1>
+	</div>
+
+	<table class="TFtable">
+		<tr>
+			<td style="background-color: black">
+			<!--	<input id="myInp" type="text" value="dinesh"> 
+        		<button id="btnCopy" value="123456" style="background-color: black; border: none; color: white;">copy</button>   -->
+			
+			</td>
+			<td style="background-color: #3D2B1F"></td>
+			<td style="background-color: #3B3C36"></td>
+		</tr>
+
+		<tr>
+			<td style="background-color: #36454F"></td>
+			<td style="background-color: #1B1B1B"></td>
+			<td style="background-color: #16161d"></td>
+		</tr>
+
+		<tr>
+			<td style="background-color: #1A1110"></td>
+			<td style="background-color: #242124"></td>
+			<td style="background-color: #100c08"></td>
+		</tr>
+	</table>
+
+
+</body>
+
+<script type="text/javascript">
+	//const myInp = document.getElementById("myInp");
+	const btnCopy = document.getElementById("btnCopy");
+	
+
+	btnCopy.onclick = function(){
+		btnCopy.select();
+		document.execCommand("Copy");
+	};
+</script>
+</html>
+
+
+
+
+<!--
+<input id="myInp" type="text" value="dinesh">
+<button id="btnCopy">copy</button>
+<input id="myInp" type="text" value="dinesh">
+		<button id="btnCopy">copy</button>
+		style="background-color: black; border: none;
+
+		style="background-color: black; border: none;
+		style="background-color: black; border: none;
+		dinesh
+
+
+
+		dineshdinesh
+
+		dinesh
+-->

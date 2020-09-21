@@ -1,0 +1,218 @@
+body{
+	background: #f7f1e3;
+	margin: 0px;
+	padding: 0px;
+}
+a, u {
+    text-decoration: none;
+}
+.dinesh{
+	background-color: #000000;
+	color:white;
+	text-align: center;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+/*.dinesh:hover{
+	background-color: white;
+	color: black;
+}*/
+
+       /*black*/
+.black{
+	background-color: black;
+	color:white;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.black:hover{
+	opacity: 0.8;
+	transition-duration: 1s;
+	text-align: left;   
+}
+
+		/*violet*/
+
+.violet{
+	background-color: #7F00FF;
+	color:white;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.violet:hover{
+	opacity: 0.8;
+	transition-duration: 1s;
+	text-align: left;    
+}
+
+       /*indigo*/
+
+.indigo{
+	background-color: #4b0082;
+	color:white;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.indigo:hover{
+	opacity: 0.8;
+	transition-duration: 1s;
+	text-align: right;   
+}
+
+       /*blue*/
+
+.blue{
+	background-color: #0000FF;
+	color:white;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.blue:hover{
+	opacity: 0.8;
+	transition-duration: 1s;
+	text-align: right;   
+}
+
+	       /*green*/
+
+.green{
+	background-color: #008000;
+	color:white;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.green:hover{
+	opacity: 0.9;
+	transition-duration: 1s;
+	text-align: left;   
+}
+
+       /*yellow*/
+
+.yellow{
+	background-color: #FFFF00;
+	color:white;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.yellow:hover{
+	opacity: 0.9;
+	transition-duration: 1s;
+	text-align: right;   
+}
+
+       /*orange*/
+
+.orange{
+	background-color: #FF8C00;	
+	color:white;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.orange:hover{
+	opacity: 0.9;
+	transition-duration: 1s;
+	text-align: left;   
+}
+
+       /*red*/
+
+.red{
+	background-color: #FF0000	;
+	color:white;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.red:hover{
+	opacity: 0.9;
+	transition-duration: 1s;
+	text-align: right;    
+}
+
+       /*grey*/
+
+.grey{
+	background-color: #aaa69d;
+	color:white;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+
+}
+.grey:hover{
+	opacity: 0.9;
+	transition-duration: 1s;
+	text-align: right;   
+}
+
+       /*pink*/
+
+.pink{
+	background-color: #FFC0CB;
+	color: white;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.pink:hover{
+	opacity: 0.9;
+	transition-duration: 1s;
+	text-align: right;     
+}
+
+       /*brown*/
+
+.brown{
+	background-color: #964B00;
+	color: white;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.brown:hover{
+	opacity: 0.9;
+	transition-duration: 1s;
+	text-align: left;   
+}
+
+       /*cyan*/
+
+.cyan{
+	background-color: #00FFFF;
+	color: white;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+.cyan:hover{
+	opacity: 0.9;
+	transition-duration: 1s;
+	text-align: left;   
+}
+
+       /*white*/
+
+.white{
+	background-color: #FFFFFF;
+	color:black;
+	margin:10px;
+	padding: 20px;
+	text-align: center;
+}
+.white:hover{
+	opacity: 0.9;
+	transition-duration: 1s;
+	text-align: left;    
+}
+
+	 /*  media quieries  */
+	 
