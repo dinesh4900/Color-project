@@ -1,93 +1,465 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>blue</title>
-	<style>
-		body{
-			margin: 0;
-			padding: 0;
-		}
+	<title>color palets</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap" rel="stylesheet">
 
-		.head{
-			background-color: #0000FF;
-			color: white;
-			text-align: center;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-		}
+      <style>
+         body{
+            margin: 15px;
+         }
+         h1{
+            color: black;
+            text-align: center;
+            font-family: 'Courier Prime', monospace;
+         }
 
-		table{
-			text-align: center;
-			table-layout: fixed;
-			padding:  10px;
-			height: 200px;
-			width: 100%;
-			border-radius: 25px;
-		}
+         
 
-		td,tr{
-			width: 100px;
-			overflow: hidden;
-			height: 200px;
-			border-radius: 25px;
-		}
-	</style>
-</head>
-<body>
-	<div class="head">
-		<h2>BLUE</h2>
-	</div>
+         input{
+            width: 75px;
+         }
+         
+         .palette{
+            display: grid;
+            gap: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+         }
 
-	<table class="bltab">
-		<tr>
-			<td style="background-color: #5D8AA8"></td>
-			<td style="background-color: #72A0C1"></td>
-			<td style="background-color: #0000FF"></td>
+         .palette_color{
+            height: 150px;
+            background-color: red;
+            position: relative;
+            border-radius: 0px;
+         }     
 
-		</tr>
+         
+           
+      </style>
 
-		<tr>
-			<td style="background-color: #89CFF0"></td>
-			<td style="background-color: #318CE7"></td>
-			<td style="background-color: #6699CC"></td>
-		</tr>
 
-		<tr>
-			<td style="background-color: #0D98BA"></td>
-			<td style="background-color: #3457D5"></td>
-			<td style="background-color: #00BFFF"></td>
-		</tr>
+  </head>
+  <body>
+  
+       <h1>BLUE</h1>
 
-		<tr>
-			<td style="background-color: #4B9CD3"></td>
-			<td style="background-color: #007BA7"></td>
-			<td style="background-color: #0047AB"></td>
-		</tr>
+  
 
-		<tr>
-			<td style="background-color: #007FFF"></td>
-			<td style="background-color: #B9D9EB"></td>
-			<td style="background-color: #6495ED"></td>
-		</tr>
+     <div class="palette">
+        <div class="palette_item">
+           <div class="palette_color" style="background-color: #5D8AA8;"></div>            
+           <input type="text" class="palette_input1" value="#5D8AA8" id="bl1" readonly>
+           <button onclick="myFunction_1()"> Copy</button>
+         </div>
 
-		<tr>
-			<td style="background-color: #000088"></td>
-			<td style="background-color: #1034A6"></td>
-			<td style="background-color: #7DF9FF"></td>
-		</tr>
+        <div class="palette_item">
+         <div class="palette_color" style="background-color: #72A0C1;">
+         </div>
+            <input type="text" class="palette_input2" value="#72A0C1" id="bl2" readonly>
+            <button onclick="myFunction_2()"> Copy</button>
+         </div>
 
-		<tr>
-			<td style="background-color: #0000CD"></td>
-			<td style="background-color: #75AAD8"></td>
-			<td style="background-color: #000080"></td>
-		</tr>
 
-		<tr>
-			<td style="background-color: #000080"></td>
-			<td style="background-color: #9EB9D4"></td>
-			<td style="background-color: #0F52BA"></td>
-		</tr>
-	</table>
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #0000FF;">
+             </div>
+ 
+            <input type="text" class="palette_input3" value="#0000FF" id="bl3" readonly>
+            <button onclick="myFunction_3()"> Copy</button>
+ 
+         </div>
+         
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #89CFF0;">
+             </div>
+ 
+            <input type="text" class="palette_input4" value="#89CFF0" id="bl4" readonly>
+            <button onclick="myFunction_4()"> Copy</button>
+ 
+         </div>
+
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #318CE7;"></div>
+ 
+            <input type="text" class="palette_input5" value="#318CE7" id="bl5" readonly>
+            <button onclick="myFunction_5()"> Copy</button>
+          </div>
+
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #6699CC;">
+             </div>
+ 
+            <input type="text" class="palette_input6" value="#6699CC" id="bl6" readonly>
+            <button onclick="myFunction_6()"> Copy</button>
+ 
+         </div>
+
+
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #0D98BA;"></div>
+           
+             <input type="text" class="palette_input7" value="#0D98BA" id="bl7" readonly>
+            <button onclick="myFunction_7()"> Copy</button>
+ 
+         </div>
+
+
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #3457D5;">
+             </div>
+ 
+            <input type="text" class="palette_input8" value="#3457D5" id="bl8" readonly>
+            <button onclick="myFunction_8()"> Copy</button>
+ 
+         </div>
+
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #00BFFF;">
+             </div>
+ 
+            <input type="text" class="palette_input9" value="#00BFFF" id="bl9" readonly>
+            <button onclick="myFunction_9()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #4B9CD3;">
+             </div>
+ 
+            <input type="text" class="palette_input10" value="#4B9CD3" id="bl10" readonly>
+            <button onclick="myFunction_10()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #007BA7;">
+             </div>
+ 
+            <input type="text" class="palette_input11" value="#007BA7" id="bl11" readonly>
+            <button onclick="myFunction_11()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #0047AB;">
+             </div>
+ 
+            <input type="text" class="palette_input12" value="#0047AB" id="bl12" readonly>
+            <button onclick="myFunction_12()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #007FFF;">
+             </div>
+ 
+            <input type="text" class="palette_input13" value="#007FFF" id="bl13" readonly>
+            <button onclick="myFunction_13()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #B9D9EB;">
+             </div>
+ 
+            <input type="text" class="palette_input14" value="#B9D9EB" id="bl14" readonly>
+            <button onclick="myFunction_14()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #6495ED;">
+             </div>
+ 
+            <input type="text" class="palette_input15" value="#6495ED" id="bl15" readonly>
+            <button onclick="myFunction_15()"> Copy</button>
+ 
+         </div>  
+
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #000088;">
+             </div>
+ 
+            <input type="text" class="palette_input16" value="#000088" id="bl16" readonly>
+            <button onclick="myFunction_16()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #1034A6;">
+             </div>
+ 
+            <input type="text" class="palette_input17" value="#1034A6" id="bl17" readonly>
+            <button onclick="myFunction_17()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #7DF9FF;">
+             </div>
+ 
+            <input type="text" class="palette_input18" value="#7DF9FF" id="bl18" readonly>
+            <button onclick="myFunction_18()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #0000CD;">
+             </div>
+ 
+            <input type="text" class="palette_input19" value="#0000CD" id="bl19" readonly>
+            <button onclick="myFunction_19()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #75AAD8;">
+             </div>
+ 
+            <input type="text" class="palette_input20" value="#75AAD8" id="bl20" readonly>
+            <button onclick="myFunction_20()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #000080;">
+             </div>
+ 
+            <input type="text" class="palette_input21" value="#000080" id="bl21" readonly>  
+            <button onclick="myFunction_21()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #9EB9D4;">
+             </div>
+ 
+            <input type="text" class="palette_input22" value="#9EB9D4" id="bl22" readonly>
+            <button onclick="myFunction_22()"> Copy</button>
+ 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #0F52BA;">
+             </div>
+ 
+            <input type="text" class="palette_input23" value="#0F52BA" id="bl23" readonly>
+            <button onclick="myFunction_23()"> Copy</button>
+ 
+         </div>  
+
+         
+
+
+
+     </div>  
+       
 </body>
+
+<script>
+   function myFunction_1() {
+            var copyText = document.getElementById("bl1");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+        }
+
+        function myFunction_2() {
+            var copyText = document.getElementById("bl2");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+        function myFunction_3() {
+            var copyText = document.getElementById("bl3");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+        function myFunction_4() {
+            var copyText = document.getElementById("bl4");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+        function myFunction_5() {
+            var copyText = document.getElementById("bl5");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+        function myFunction_6() {
+            var copyText = document.getElementById("bl6");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+        function myFunction_7() {
+            var copyText = document.getElementById("bl7");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+        function myFunction_8() {
+            var copyText = document.getElementById("bl8");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+        function myFunction_9() {
+            var copyText = document.getElementById("bl9");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+        function myFunction_10() {
+            var copyText = document.getElementById("bl10");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+
+        function myFunction_11() {
+            var copyText = document.getElementById("bl11");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+
+        function myFunction_12() {
+            var copyText = document.getElementById("bl12");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+
+        function myFunction_13() {
+            var copyText = document.getElementById("bl13");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+
+        function myFunction_14() {
+            var copyText = document.getElementById("bl14");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+
+        function myFunction_15() {
+            var copyText = document.getElementById("bl15");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+
+        function myFunction_16() {
+            var copyText = document.getElementById("bl16");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+
+        function myFunction_17() {
+            var copyText = document.getElementById("bl17");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+
+        function myFunction_18() {
+            var copyText = document.getElementById("bl18");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+
+        function myFunction_19() {
+            var copyText = document.getElementById("bl19");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+        
+        function myFunction_20() {
+            var copyText = document.getElementById("bl20");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+
+        function myFunction_21() {
+            var copyText = document.getElementById("bl21");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+        function myFunction_22() {
+            var copyText = document.getElementById("bl22");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+        function myFunction_23() {
+            var copyText = document.getElementById("bl23");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+
+        }
+
+
+        
+</script>
+
 </html>

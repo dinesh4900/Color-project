@@ -1,218 +1,414 @@
 body{
-	background: #f7f1e3;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
-a, u {
-    text-decoration: none;
-}
-.dinesh{
-	background-color: #000000;
-	color:white;
-	text-align: center;
-	overflow: hidden;
-	margin: 0px;
-	padding: 0px;
-}
-/*.dinesh:hover{
-	background-color: white;
-	color: black;
-}*/
 
-       /*black*/
+.dinesh{
+	text-align: center;
+	background-color: black;
+	color :white;
+	position: absolute;
+	width: 100%;
+}
+
 .black{
 	background-color: black;
-	color:white;
-	margin: 10px;
-	padding: 20px;
+	width: 18vw;
+	height:8vw;
+	position: absolute;
+	left: 4vw;
+	top:14vw;
 	text-align: center;
+	border-radius: 1.8vw;
 }
-.black:hover{
-	opacity: 0.8;
-	transition-duration: 1s;
-	text-align: left;   
-}
-
-		/*violet*/
-
-.violet{
-	background-color: #7F00FF;
+.black h1{
 	color:white;
-	margin: 10px;
-	padding: 20px;
-	text-align: center;
-}
-.violet:hover{
-	opacity: 0.8;
-	transition-duration: 1s;
-	text-align: left;    
+	font-size: 2vw;
 }
 
-       /*indigo*/
 
-.indigo{
-	background-color: #4b0082;
-	color:white;
-	margin: 10px;
-	padding: 20px;
-	text-align: center;
-}
-.indigo:hover{
-	opacity: 0.8;
-	transition-duration: 1s;
-	text-align: right;   
-}
-
-       /*blue*/
 
 .blue{
-	background-color: #0000FF;
-	color:white;
-	margin: 10px;
-	padding: 20px;
+	background-color:#0984e3;
+	width: 18vw;
+	height:8vw;
+	position: absolute;
+	top:14vw;
+	margin:0 27vw;
 	text-align: center;
+	border-radius: 1.8vw;
 }
-.blue:hover{
-	opacity: 0.8;
-	transition-duration: 1s;
-	text-align: right;   
+.blue h1{
+	color:white;
+	font-size: 2vw;
 }
-
-	       /*green*/
-
 .green{
 	background-color: #008000;
-	color:white;
-	margin: 10px;
-	padding: 20px;
+	width: 18vw;
+	height: 8vw;
+	position: absolute;
+	margin:0 50vw;
+	top: 14vw;
 	text-align: center;
+	border-radius: 1.8vw;
 }
-.green:hover{
-	opacity: 0.9;
-	transition-duration: 1s;
-	text-align: left;   
+.green h1{
+	color:white;
+	font-size: 2vw;
 }
-
-       /*yellow*/
-
+.violet{
+	background-color: #7F00FF;
+	width: 18vw;
+	height:8vw;
+	position: absolute;
+	margin:0 73vw;
+	top:14vw;
+	text-align: center;
+	border-radius: 1.8vw;
+}
+.violet h1{
+	color:white;
+	font-size: 2vw;
+}
+.red {
+	background-color: #FF0000;
+	width: 18vw;
+	height:8vw;
+	position: absolute;
+	top:26vw;
+	left: 4vw;
+	text-align: center;
+	border-radius: 1.8vw;
+}
+.red h1{
+	color:white;
+	font-size: 2vw;
+}
 .yellow{
-	background-color: #FFFF00;
-	color:white;
-	margin: 10px;
-	padding: 20px;
+	background-color: #f9ca24;
+	width: 18vw;
+	height:8vw;
+	margin:0 27vw;
+	position: absolute;
+	top: 26vw;
 	text-align: center;
+	border-radius: 1.8vw;
 }
-.yellow:hover{
-	opacity: 0.9;
-	transition-duration: 1s;
-	text-align: right;   
-}
-
-       /*orange*/
-
-.orange{
-	background-color: #FF8C00;	
+.yellow h1{
 	color:white;
-	margin: 10px;
-	padding: 20px;
+	font-size: 2vw;
+}
+.brown{
+	background-color: #A52A2A;
+	width: 18vw;
+	height:8vw;
+	position: absolute;
+	top: 26vw;
+	margin:0 50vw;
 	text-align: center;
+	border-radius: 1.8vw;
 }
-.orange:hover{
-	opacity: 0.9;
-	transition-duration: 1s;
-	text-align: left;   
-}
-
-       /*red*/
-
-.red{
-	background-color: #FF0000	;
+.brown h1{
 	color:white;
-	margin: 10px;
-	padding: 20px;
-	text-align: center;
+	font-size: 2vw;
 }
-.red:hover{
-	opacity: 0.9;
-	transition-duration: 1s;
-	text-align: right;    
-}
-
-       /*grey*/
-
 .grey{
 	background-color: #aaa69d;
+	width: 18vw;
+	height:8vw;
+	margin:0 73vw;
+	position: absolute;
+	top: 26vw;
+	text-align: center;
+	border-radius: 1.8vw;
+}
+.grey h1{
 	color:white;
-	margin: 10px;
-	padding: 20px;
+	font-size: 2vw;
+}
+.orange{
+	background-color: #FF8C00;
+	width: 18vw;
+	height:8vw;
+	position: absolute;
+	top: 38vw;
+	left: 4vw;
 	text-align: center;
+	border-radius: 1.8vw;
 
 }
-.grey:hover{
-	opacity: 0.9;
-	transition-duration: 1s;
-	text-align: right;   
+.orange h1{
+	color:white;
+	font-size: 2vw;
 }
-
-       /*pink*/
-
 .pink{
-	background-color: #FFC0CB;
-	color: white;
-	margin: 10px;
-	padding: 20px;
+	background-color:#FFC0CB;
+	width: 18vw;
+	height:8vw;
+	position: absolute;
+	margin:0 27vw;
+	top:38vw;
 	text-align: center;
+	border-radius: 1.8vw;
 }
-.pink:hover{
-	opacity: 0.9;
-	transition-duration: 1s;
-	text-align: right;     
+.pink h1{
+	color:white;
+	font-size: 2vw;
 }
-
-       /*brown*/
-
-.brown{
-	background-color: #964B00;
-	color: white;
-	margin: 10px;
-	padding: 20px;
+.cyan{
+	background-color:#00FFFF;
+	width: 18vw;
+	height:8vw;
+	margin:0 50vw;
+	position: absolute;
+	top:38vw;
 	text-align: center;
+	border-radius: 1.8vw;
+}
+.cyan h1{
+	color:white;
+	font-size: 2vw;
+}
+.indigo{
+	background-color:#4b0082;
+	width: 18vw;
+	height:8vw;
+	margin:0 73vw;
+	position: absolute;
+	top:38vw;
+	text-align: center;
+	border-radius: 1.8vw;
+}
+.indigo h1{
+	color:white;
+	font-size: 2vw;
 }
 .brown:hover{
-	opacity: 0.9;
-	transition-duration: 1s;
-	text-align: left;   
+	border-radius: 2vw;
+opacity:0.8;
+filter:alpha(opacity=50);
 }
-
-       /*cyan*/
-
-.cyan{
-	background-color: #00FFFF;
-	color: white;
-	margin: 10px;
-	padding: 20px;
-	text-align: center;
+.orange:hover{
+border-radius: 2vw;
+opacity:0.8;
+filter:alpha(opacity=50);
+}
+.green:hover{
+border-radius: 2vw;
+opacity:0.8;
+filter:alpha(opacity=50);
+}
+.red:hover{
+border-radius: 2vw;
+opacity:0.8;
+filter:alpha(opacity=50);
+}
+.grey:hover{
+border-radius: 2vw;
+opacity:0.8;
+filter:alpha(opacity=50);
 }
 .cyan:hover{
-	opacity: 0.9;
-	transition-duration: 1s;
-	text-align: left;   
+border-radius: 2vw;
+opacity:0.8;
+filter:alpha(opacity=50);
+}
+.black:hover{
+border-radius: 2vw;
+opacity:0.8;
+filter:alpha(opacity=50);
+}
+.violet:hover{
+border-radius: 2vw;
+opacity:0.8;
+filter:alpha(opacity=50);
+}
+.pink:hover{
+border-radius: 2vw;
+opacity:0.8;
+filter:alpha(opacity=50);
+}
+.blue:hover{
+border-radius: 2vw;
+opacity:0.8;
+filter:alpha(opacity=50);
+}
+.yellow:hover{
+border-radius: 2vw;
+opacity:0.8;
+filter:alpha(opacity=50);
+}
+.indigo:hover{
+border-radius: 2vw;
+opacity:0.8;
+filter:alpha(opacity=50);
 }
 
-       /*white*/
 
-.white{
-	background-color: #FFFFFF;
-	color:black;
-	margin:10px;
-	padding: 20px;
-	text-align: center;
-}
-.white:hover{
-	opacity: 0.9;
-	transition-duration: 1s;
-	text-align: left;    
-}
 
-	 /*  media quieries  */
-	 
+/* ----------------- Media Queries------------------------*/
+
+
+
+@media screen and (max-width: 1080px) {
+	
+	body {
+	  background-color:white;
+	}
+	h1{
+		font-size: 50px;
+	}
+
+	.dinesh{
+		width: 100%;
+		text-align: left;
+		height:120px;
+	}
+
+	.black{
+		background-color: black;
+		width: 60vw;
+		height: 19vw;
+		position: absolute;
+		margin: 0 ;
+		left: 20vw;
+		top: 30vw;
+		text-align: center;
+		border-radius: 1.8vw;
+	}
+
+	.blue{
+		background-color: blue;
+		width: 60vw;
+		height: 19vw;
+		position: absolute;
+		margin: 0;
+		left: 20vw;
+		top: 50vw;
+		text-align: center;
+		border-radius: 1.8vw;
+	}
+
+	.green{
+		background-color: #008000;
+		width: 60vw;
+		height: 19vw;
+		position: absolute;
+		margin: 0;
+		top: 70vw;
+		left: 20vw;
+		text-align: center;
+		border-radius: 1.8vw;
+	}
+
+	.violet{
+		background-color:  #7F00FF;
+		width: 60vw;
+		height: 19vw;
+		position: absolute;
+		margin: 0;
+		top: 90vw;
+		left: 20vw;
+		text-align: center;
+		border-radius: 1.8vw;
+	}
+	.red {
+		background-color: #FF0000;
+		width: 60vw;
+		height:19vw;
+		position: absolute;
+		margin: 0;
+		top:110vw;
+		left: 20vw;
+		text-align: center;
+		border-radius: 1.8vw;
+	}
+
+	.yellow{
+		background-color: yellow;
+		width: 60vw;
+		height:19vw;
+		position: absolute;
+		margin: 0;
+		left: 20vw;
+		top: 130vw;
+		text-align: center;
+		border-radius: 1.8vw;
+	}
+
+	.brown{
+		background-color: #A52A2A;
+		width: 60vw;
+		height:19vw;
+		position: absolute;
+		margin: 0;
+		top: 150vw;
+		left: 20vw;
+		text-align: center;
+		border-radius: 1.8vw;
+	}
+
+	.grey{
+		background-color: #aaa69d;
+		width: 60vw;
+		height:19vw;
+		position: absolute;
+		margin: 0;
+		top: 170vw;
+		left: 20vw;
+		text-align: center;
+		border-radius: 1.8vw;
+	}
+
+	.orange{
+		background-color: #FF8C00;
+		width: 60vw;
+		height:19vw;
+		position: absolute;
+		left: 20vw;
+		top: 190vw;
+		text-align: center;
+		border-radius: 1.8vw;
+	
+	}
+
+	.pink{
+		background-color:#FFC0CB;
+		width: 60vw;
+		height:19vw;
+		position: absolute;
+		margin: 0;
+		top:210vw;
+		left: 20vw;
+		text-align: center;
+		border-radius: 1.8vw;
+	}
+
+	.cyan{
+		background-color:#00FFFF;
+		width: 60vw;
+		height:19vw;
+		position: absolute;
+		margin: 0;
+		left: 20vw;
+		top:250vw;
+		text-align: center;
+		border-radius: 1.8vw;
+	}
+
+	.indigo{
+		background-color:#4b0082;
+		width: 60vw;
+		height:19vw;
+		position: absolute;
+		margin: 0;
+		top:230vw;
+		left: 20vw;
+		text-align: center;
+		border-radius: 1.8vw;
+	}
+
+  }
+
+
+  

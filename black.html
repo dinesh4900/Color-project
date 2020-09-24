@@ -1,113 +1,177 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>black</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<style>
-		body{
-			margin: 0;
-			padding: 0;
-			background-color: #CAD3C8;
-		}
-		.head{
-			background-color: black;
-			color: white;
-			text-align: center;
-			margin: 0;
-			padding: 0;
-		    overflow: hidden;
-		}
-		table {
-  			table-layout: fixed;
-  			padding: 10px;
-  			text-align: center;
-  			height: 200px;
-  			width: 100%;
-		}		
+	<title>color palets</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap" rel="stylesheet">
 
-		th,td {
-    		width: 100px;
-  			overflow: hidden;
-  			height: 200px;
-  			border-radius: 25px;
-		}
-
-		input{
-			border-radius: 3px;
-			background-color: black;
-			color: white;
-			border: none;
-		}
-
-		@media screen and (max-width: 480px) {
- 			 table{
-				  padding: 10px;
-			  }
-}
-
-	</style>
+      <style>
+         body{
+            margin: 15px;
+         }
+         h1{
+            color: black;
+            text-align: center;
+            font-family: 'Courier Prime', monospace;
+         }
+         input{
+            width: 75px;
+         }
+         .palette{
+            display: grid;
+            gap: 15px;
+         
+         }
+         .palette_color{
+            height: 150px;
+            width: 180px;
+            background-color: red;
+            position: relative;
+            border-radius: 0px;
+         }     
+       </style>
 </head>
-<body>
-	<div class="head">
-		<h1> BLACK</h1>
-	</div>
+<body> 
+   <h1>BLACK</h1>
 
-	<table class="TFtable">
-		<tr>
-			<td style="background-color: black">
-			<!--	<input id="myInp" type="text" value="dinesh"> 
-        		<button id="btnCopy" value="123456" style="background-color: black; border: none; color: white;">copy</button>   -->
-			
-			</td>
-			<td style="background-color: #3D2B1F"></td>
-			<td style="background-color: #3B3C36"></td>
-		</tr>
+     <div class="palette">
 
-		<tr>
-			<td style="background-color: #36454F"></td>
-			<td style="background-color: #1B1B1B"></td>
-			<td style="background-color: #16161d"></td>
-		</tr>
+        <div class="palette_item">
+           <div class="palette_color" style="background-color: #000000;"></div>            
+           <input type="text" class="palette_input1" value="#000000" id="inp1">
+           <button onclick="myFunction_1()"> Copy</button>
+         </div>
 
-		<tr>
-			<td style="background-color: #1A1110"></td>
-			<td style="background-color: #242124"></td>
-			<td style="background-color: #100c08"></td>
-		</tr>
-	</table>
+        <div class="palette_item">
+         <div class="palette_color" style="background-color: #3D2B1F;">
+         </div>
+            <input type="text" class="palette_input2" value="#3D2B1F" id="inp2">
+            <button onclick="myFunction_2()"> Copy</button>
+         </div>
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #3B3C36;"></div>
+            <input type="text" class="palette_input3" value="#3B3C36" id="inp3">
+            <button onclick="myFunction_3()"> Copy</button>
+         </div>
+         
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #36454F;"></div>
+            <input type="text" class="palette_input4" value="#36454F" id="inp4">
+            <button onclick="myFunction_4()"> Copy</button> 
+         </div>
 
 
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #1B1B1B;"></div>
+            <input type="text" class="palette_input5" value="#1B1B1B" id="inp5">
+            <button onclick="myFunction_5()"> Copy</button>
+         </div>
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #16161d;"></div>
+            <input type="text" class="palette_input6" value="#16161d" id="inp6">
+            <button onclick="myFunction_6()"> Copy</button>
+         </div>
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #1A1110;"></div>
+            <input type="text" class="palette_input7" value="#1A1110" id="inp7">
+            <button onclick="myFunction_7()"> Copy</button>
+         </div>
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #242124;"></div>
+             <input type="text" class="palette_input8" value="#242124" id="inp8">
+            <button onclick="myFunction_8()"> Copy</button>
+          </div>
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #948e87;"></div>
+            <input type="text" class="palette_input9" value="#948e87" id="inp9">
+            <button onclick="myFunction_9()"> Copy</button> 
+         </div>  
+
+         <div class="palette_item">
+            <div class="palette_color" style="background-color: #343434;"></div>
+            <input type="text" class="palette_input10" value="#343434" id="inp10">
+            <button onclick="myFunction_10()"> Copy</button>
+         </div>  
+
+     </div>  
+       
 </body>
 
-<script type="text/javascript">
-	//const myInp = document.getElementById("myInp");
-	const btnCopy = document.getElementById("btnCopy");
-	
+<script>
+   function myFunction_1() {
+            var copyText = document.getElementById("inp1");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+        }
 
-	btnCopy.onclick = function(){
-		btnCopy.select();
-		document.execCommand("Copy");
-	};
+        function myFunction_2() {
+            var copyText = document.getElementById("inp2");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+         }
+
+        function myFunction_3() {
+            var copyText = document.getElementById("inp3");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+         }
+
+        function myFunction_4() {
+            var copyText = document.getElementById("inp4");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+         }
+
+        function myFunction_5() {
+            var copyText = document.getElementById("inp5");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+         }
+
+        function myFunction_6() {
+            var copyText = document.getElementById("inp6");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+         }
+
+        function myFunction_7() {
+            var copyText = document.getElementById("inp7");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+         }
+
+        function myFunction_8() {
+            var copyText = document.getElementById("inp8");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+         }
+
+        function myFunction_9() {
+            var copyText = document.getElementById("inp9");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+         }
+
+        function myFunction_10() {
+            var copyText = document.getElementById("inp10");
+            copyText.select();
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+         }
 </script>
+
 </html>
-
-
-
-
-<!--
-<input id="myInp" type="text" value="dinesh">
-<button id="btnCopy">copy</button>
-<input id="myInp" type="text" value="dinesh">
-		<button id="btnCopy">copy</button>
-		style="background-color: black; border: none;
-
-		style="background-color: black; border: none;
-		style="background-color: black; border: none;
-		dinesh
-
-
-
-		dineshdinesh
-
-		dinesh
--->
