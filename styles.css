@@ -1,12 +1,12 @@
 body{
 	margin: 0;
 	padding: 0;
+
 }
 
 .dinesh{
 	text-align: center;
-	background-color: black;
-	color :white;
+	font-family: 'Secular One', sans-serif;	
 	position: absolute;
 	width: 100%;
 }
@@ -184,7 +184,7 @@ body{
 	font-size: 2vw;
 }
 .brown:hover{
-	border-radius: 2vw;
+border-radius: 2vw;
 opacity:0.8;
 filter:alpha(opacity=50);
 }
