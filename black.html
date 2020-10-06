@@ -3,6 +3,7 @@
 <head>
 	<title>color palets</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <link rel="stylesheet" type="text/css" href="styles.css">
    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap" rel="stylesheet">
 
       <style>
@@ -31,6 +32,30 @@
             border-radius: 0px;
          }     
 
+         @media screen and (max-width: 1080px){
+            .palette{
+               display: grid;
+               gap: 1px;
+               grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+            }
+            .palette_color{
+               height: 75px;
+               width: 150px;
+               position:relative;
+               border-radius: 0px;
+            }     
+            input{
+               width: 90px;
+               height: 20px;
+            }
+            button{
+               height: 25px;
+            }
+         }
+
+
+        
+   
          
        </style>
 </head>
