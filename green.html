@@ -33,6 +33,30 @@
             border-radius: 0px;
          }   
 
+
+         @media screen and (max-width: 1080px){
+            
+            .palette{
+               display: grid;
+               gap: 1px;
+               margin-left: 25px;
+               grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+            }
+            .palette_color{
+               height: 75px;
+               width: 150px;
+               position:relative;
+               border-radius: 0px;
+            }     
+            input{
+               width: 90px;
+               height: 20px;
+            }
+            button{
+               height: 25px;
+            }
+         }
+
          
            
       </style>
@@ -341,48 +365,31 @@
  
          </div>  
 
-
          <div class="palette_item">
-            <div class="palette_color" style="background-color: #76FF7A;">
-             </div>
- 
+            <div class="palette_color" style="background-color: #76FF7A;"></div>
             <input type="text" class="palette_input21" value="#76FF7A" id="bl33" readonly>  
             <button onclick="myFunction_33()"> Copy</button>
- 
          </div>  
 
 
          <div class="palette_item">
-            <div class="palette_color" style="background-color: #00A550;">
-             </div>
- 
+            <div class="palette_color" style="background-color: #00A550;"></div>
             <input type="text" class="palette_input21" value="#00A550" id="bl34" readonly>  
             <button onclick="myFunction_34()"> Copy</button>
- 
          </div>  
 
-
          <div class="palette_item">
-            <div class="palette_color" style="background-color: #009E60;">
-             </div>
- 
+            <div class="palette_color" style="background-color: #009E60;"></div>
             <input type="text" class="palette_input21" value="#009E60" id="bl35" readonly>  
             <button onclick="myFunction_35()"> Copy</button>
- 
          </div>  
 
-
          <div class="palette_item">
-            <div class="palette_color" style="background-color: #00FF7F;">
-             </div>
- 
+            <div class="palette_color" style="background-color: #00FF7F;"></div>
             <input type="text" class="palette_input21" value="#00FF7F" id="bl36" readonly>  
             <button onclick="myFunction_36()"> Copy</button>
- 
-         </div> 55DD33
+         </div>  
 
-
- 
    </div>  
        
 </body>

@@ -13,13 +13,13 @@ body{
 
 .black{
 	background-color: black;
-	width: 18vw;
-	height:8vw;
+	width: 220px;
+	height:100px;
 	position: absolute;
-	left: 4vw;
-	top:14vw;
+	left: 60px;
+	top:160px;
 	text-align: center;
-	border-radius: 1.8vw;
+	border-radius: 22px;
 }
 .black h1{
 	color:white;
@@ -30,13 +30,13 @@ body{
 
 .blue{
 	background-color:#0984e3;
-	width: 18vw;
-	height:8vw;
+	width: 220px;
+	height:100px;
 	position: absolute;
-	top:14vw;
-	margin:0 27vw;
+	top: 160px;
+	margin:0 350px;
 	text-align: center;
-	border-radius: 1.8vw;
+	border-radius: 22px;
 }
 .blue h1{
 	color:white;
@@ -44,13 +44,13 @@ body{
 }
 .green{
 	background-color: #008000;
-	width: 18vw;
-	height: 8vw;
+	width: 220px;
+	height: 100px;
 	position: absolute;
-	margin:0 50vw;
-	top: 14vw;
+	margin:0 630px;
+	top: 160px;
 	text-align: center;
-	border-radius: 1.8vw;
+	border-radius: 22px;
 }
 .green h1{
 	color:white;
@@ -58,13 +58,13 @@ body{
 }
 .violet{
 	background-color: #7F00FF;
-	width: 18vw;
-	height:8vw;
+	width: 220px;
+	height:100px;
 	position: absolute;
-	margin:0 73vw;
-	top:14vw;
+	margin:0 930px;
+	top:160px;
 	text-align: center;
-	border-radius: 1.8vw;
+	border-radius: 22px;
 }
 .violet h1{
 	color:white;
@@ -72,13 +72,13 @@ body{
 }
 .red {
 	background-color: #FF0000;
-	width: 18vw;
-	height:8vw;
+	width: 220px;
+	height:100px;
 	position: absolute;
-	top:26vw;
-	left: 4vw;
+	top:310px;
+	left: 60px;
 	text-align: center;
-	border-radius: 1.8vw;
+	border-radius: 22px;
 }
 .red h1{
 	color:white;
@@ -86,13 +86,13 @@ body{
 }
 .yellow{
 	background-color: #f9ca24;
-	width: 18vw;
-	height:8vw;
-	margin:0 27vw;
+	width: 220px;
+	height:100px;
+	margin:0 350px;
 	position: absolute;
-	top: 26vw;
+	top: 310px;
 	text-align: center;
-	border-radius: 1.8vw;
+	border-radius: 22px;
 }
 .yellow h1{
 	color:white;
@@ -100,13 +100,13 @@ body{
 }
 .brown{
 	background-color: #A52A2A;
-	width: 18vw;
-	height:8vw;
+	width: 220px;
+	height:100px;
 	position: absolute;
-	top: 26vw;
-	margin:0 50vw;
+	top: 310px;
+	margin:0 630px;
 	text-align: center;
-	border-radius: 1.8vw;
+	border-radius: 22px;
 }
 .brown h1{
 	color:white;
@@ -114,13 +114,13 @@ body{
 }
 .grey{
 	background-color: #aaa69d;
-	width: 18vw;
-	height:8vw;
-	margin:0 73vw;
+	width: 220px;
+	height:100px;
+	margin:0 930px;
 	position: absolute;
-	top: 26vw;
+	top: 310px;
 	text-align: center;
-	border-radius: 1.8vw;
+	border-radius: 22px;
 }
 .grey h1{
 	color:white;
@@ -128,13 +128,13 @@ body{
 }
 .orange{
 	background-color: #FF8C00;
-	width: 18vw;
-	height:8vw;
+	width: 220px;
+	height:100px;
 	position: absolute;
-	top: 38vw;
-	left: 4vw;
+	top: 460px;
+	left: 60px;
 	text-align: center;
-	border-radius: 1.8vw;
+	border-radius: 22px;
 
 }
 .orange h1{
@@ -143,13 +143,13 @@ body{
 }
 .pink{
 	background-color:#FFC0CB;
-	width: 18vw;
-	height:8vw;
+	width: 220px;
+	height:100px;
 	position: absolute;
-	margin:0 27vw;
-	top:38vw;
+	margin:0 350px;
+	top:460px;
 	text-align: center;
-	border-radius: 1.8vw;
+	border-radius: 22px;
 }
 .pink h1{
 	color:white;
@@ -157,13 +157,13 @@ body{
 }
 .cyan{
 	background-color:#00FFFF;
-	width: 18vw;
-	height:8vw;
-	margin:0 50vw;
+	width: 220px;
+	height:100px;
+	margin:0 630px;
 	position: absolute;
-	top:38vw;
+	top:  460px;
 	text-align: center;
-	border-radius: 1.8vw;
+	border-radius: 22px;
 }
 .cyan h1{
 	color:white;
@@ -171,13 +171,13 @@ body{
 }
 .indigo{
 	background-color:#4b0082;
-	width: 18vw;
-	height:8vw;
-	margin:0 73vw;
+	width: 220px;
+	height:100px;
+	margin:0 930px;
 	position: absolute;
-	top:38vw;
+	top:460px;
 	text-align: center;
-	border-radius: 1.8vw;
+	border-radius: 22px;
 }
 .indigo h1{
 	color:white;
@@ -242,6 +242,19 @@ filter:alpha(opacity=50);
 border-radius: 2vw;
 opacity:0.8;
 filter:alpha(opacity=50);
+}
+
+.footer-main-div{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background-color: black;
+	padding: 20px 0px;
+}
+.footer-soc-icon{
+	width: 100%;
+	height: auto;
+	margin: auto;
 }
 
 

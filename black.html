@@ -17,8 +17,13 @@
             font-family: 'Courier Prime', monospace;
          }
          input{
-            width: 75px;
+            width: 230px;
             height: 25px;
+            font-size: 17px;
+         }
+         button{
+            height: 25px;
+            font-weight: bold;
          }
          .palette{
             display: grid;
@@ -33,9 +38,11 @@
          }     
 
          @media screen and (max-width: 1080px){
+            
             .palette{
                display: grid;
                gap: 1px;
+               margin-left: 25px;
                grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
             }
             .palette_color{
@@ -52,12 +59,7 @@
                height: 25px;
             }
          }
-
-
-        
-   
-         
-       </style>
+      </style>
 </head>
 <body> 
    <h1>BLACK</h1>
